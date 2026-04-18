@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9f5f0;
+  }
+}
+
+@layer components {
+  .blob {
+    position: absolute;
+    width: 340px;
+    height: 340px;
+    background: radial-gradient(circle , #f9c8d4 10%, #38010f 50%, transparent 80%);
+    border-radius: 50%;
+    filter: blur(10px);
+
+   
+  }
+  .nav-link {
+    @apply hover:text-gray-800 transition text-gray-500 text-sm;
+  }
+  .section-eyebrow {
+    @apply font-script text-rose text-2xl mb-2;
+  }
+  .section-title {
+    @apply font-serif  text-black dark:text-gray-200;
+  }
+  .badge {
+    @apply inline-block text-sm font-medium px-4 py-1.5 rounded-full;
+  }
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dolce — About</title>
+  <link rel="stylesheet" href="../dist/output.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Dancing+Script:wght@600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet"/>
+</head>
+
+<body class="bg-cream dark:bg-dark font-sans transition-colors duration-300">
+
+  <!-- NAV -->
+  <nav class="flex items-center justify-between px-6 md:px-10 py-5 bg-cream dark:bg-dark sticky top-0 z-50 border-b border-gray-100 dark:border-gray-800">
+    <span class="font-script text-3xl text-black dark:text-white">Dolce</span>
+
+    <!-- Mobile menu button -->
+    <button id="menuBtn" class="md:hidden text-black dark:text-gray-400">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"/>
+      </svg>
+    </button>
+
+    <!-- Desktop links -->
+    <div class="hidden md:flex items-center gap-6">
+      <a href="#" class="nav-link">Home</a>
+      <a href="#" class="nav-link border border-gray-300 dark:border-gray-600 rounded-full px-4 py-1 text-gray-800 dark:text-gray-200 hover:bg-blush dark:hover:bg-gray-800">About</a>
+      <a href="#" class="nav-link">Flavors</a>
+      
+    </div>
+
+    <div class="flex items-center gap-3">
+      <!-- Dark mode toggle -->
+       <button id="darkToggle" class=" w-9 h-9 flex items-center justify-center rounded-full border border-gray-200 dark:border-gray-700 hover:bg-blush dark:hover:bg-gray-800 ">
+        <svg id="sunIcon" class="w-4 h-4 hidden dark:block"   xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M565-395q35-35 35-85t-35-85q-35-35-85-35t-85 35q-35 35-35 85t35 85q35 35 85 35t85-35Zm-226.5 56.5Q280-397 280-480t58.5-141.5Q397-680 480-680t141.5 58.5Q680-563 680-480t-58.5 141.5Q563-280 480-280t-141.5-58.5ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
+    
+        <svg id="moonIcon" class="w-4 h-4 dark:hidden " xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M600-640 480-760l120-120 120 120-120 120Zm200 120-80-80 80-80 80 80-80 80ZM483-80q-84 0-157.5-32t-128-86.5Q143-253 111-326.5T79-484q0-146 93-257.5T409-880q-18 99 11 193.5T520-521q71 71 165.5 100T879-410q-26 144-138 237T483-80Zm0-80q88 0 163-44t118-121q-86-8-163-43.5T463-465q-61-61-97-138t-43-163q-77 43-120.5 118.5T159-484q0 135 94.5 229.5T483-160Zm-20-305Z"/></svg>
+      </button>
+     
+     
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div id="mobileMenu" class="hidden md:hidden bg-cream dark:bg-gray-950 px-6 py-6 flex flex-col gap-3 border-b border-gray-100 dark:border-gray-800">
+    <a href="#" class="nav-link">Home</a>
+    <a href="#" class="nav-link">About</a>
+    <a href="#" class="nav-link">Flavors</a>
+    
+  </div>
+
+  <!-- HERO -->
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-10 items-center px-6 md:px-10 pt-12 pb-10">
+    <div>
+      <p class=" section-eyebrow ">Our Story</p>
+      <h1 class="section-title text-5xl md:text-7xl leading-tight mb-6 dark:text-white font-script">About Us</h1>
+      <p class="text-gray-500 dark:text-gray-400 max-w-sm mb-5 text-[15px]">
+        At Dolce, ice cream is more than a dessert—it's an experience.
+        Crafted with passion, we blend timeless recipes with premium ingredients
+        to create scoops of pure joy in every cup and cone.
+      </p>
+      <p class="font-script text-2xl text-gray-700 dark:text-gray-300">The Dolce Team</p>
+    </div>
+
+    <div class="relative flex justify-center items-center h-80">
+      <div class="blob "></div>
+      <img
+        src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400&h=400&fit=crop"
+        alt="Ice cream scoops bowl"
+        class="relative z-10 w-80 h-80 rounded-full object-cover object-top"
+      />
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 px-6 md:px-10 pb-10">
+
+    <div class="bg-white dark:bg-darkcard1 rounded-2xl p-7">
+      <div class="w-10 h-10 bg-blush dark:bg-heart rounded-xl flex items-center justify-center mb-4 text-lg">
+      <svg class=" text-black dark:text-white "  xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" ><path fill="currentColor" d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+      </div>
+      <h3 class="section-title text-xl mb-3">Great Taste</h3>
+      <p class="text-gray-500 dark:text-gray-300 text-sm leading-relaxed">Velvety smooth textures and perfectly balanced flavors that delight with every bite.</p>
+    </div>
+
+
+    <div class="bg-sand dark:bg-darkcard2 rounded-2xl p-7">
+      <div class="w-10 h-10 bg-mink dark:bg-rose/10 rounded-xl flex items-center justify-center mb-4 text-lg">
+        <svg class=" text-black dark:text-white " 
+        xmlns="http://www.w3.org/2000/svg"
+         height="24px"
+          viewBox="0 -960 960 960" 
+          width="24px" >
+          <path fill="currentColor" d="M478-467Zm222-333q70 62 105 114.5t35 97.5q0 60-40 104t-100 44q-60 0-100-44t-40-104q0-42 37-98t103-114Zm0 111q-27 29-43.5 56.5T640-588q0 27 17 47.5t43 20.5q26 0 43-20.5t17-47.5q0-17-16.5-44.5T700-689ZM480-80q-137 0-228.5-94T160-408q0-100 79.5-217.5T480-880q54 46 99 90t81 86q-7 9-25 34t-23 33q-27-32-59.5-66.5T480-774Q361-665 300.5-573T240-408q0 107 68 177.5T480-160q52 0 96-19t76-52q32-33 50-78.5t18-98.5q0-17-3.5-36T706-483q9-5 35.5-19t35.5-19q11 29 17 57.5t6 55.5q0 140-91.5 234T480-80Zm11-120q12-1 20.5-9.5T520-230q0-14-9-22.5t-23-7.5q-41 3-87-22.5T343-375q-2-11-10.5-18t-19.5-7q-14 0-23 10.5t-6 24.5q17 91 80 130t127 35Zm209-405Z"/></svg>
+      </div>
+      <h3 class="section-title text-xl mb-3">Fresh Ingredients</h3>
+      <p class="text-gray-500 dark:text-gray-300 text-sm leading-relaxed">We use locally sourced dairy, real fruits, and natural ingredients—never artificial, always delicious.</p>
+    </div>
+
+
+
+    <div class="bg-blush dark:bg-darkcard3 rounded-2xl p-7">
+      <div class="w-10 h-10 bg-rose/20 dark:bg-darkpink rounded-xl flex items-center justify-center mb-4 text-lg">
+       <svg class=" text-black dark:text-white " xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path fill="currentColor" d="M446-80q-15 0-30-6t-27-18L103-390q-12-12-17.5-26.5T80-446q0-15 5.5-30t17.5-27l352-353q11-11 26-17.5t31-6.5h287q33 0 56.5 23.5T879-800v287q0 16-6 30.5T856-457L503-104q-12 12-27 18t-30 6Zm0-80 353-354v-286H513L160-446l286 286Zm253-480q25 0 42.5-17.5T759-700q0-25-17.5-42.5T699-760q-25 0-42.5 17.5T639-700q0 25 17.5 42.5T699-640ZM480-480Z"/></svg>
+      </div>
+      <h3 class="section-title text-xl mb-3">Special Offers</h3>
+      <p class="text-gray-500 dark:text-gray-300 text-sm leading-relaxed">Enjoy seasonal creations and exclusive deals made just for our sweetest customers.</p>
+    </div>
+  </section>
+
+  <!-- QUALITY -->
+   
+  <section class="mx-6 md:mx-10 mb-10 bg-sand dark:bg-vanilla rounded-2xl overflow-hidden grid grid-cols-1 md:grid-cols-2">
+    <img
+      src="img/all.jpg"
+      alt="Vanilla cone"
+     class="w-[590px] h-[300px] md:w-full md:h-[350px] object-cover object-left"
+    />
+    <div class="p-8 md:p-10 flex flex-col justify-center">
+      <p class="section-eyebrow">Made with Love</p>
+      <h2 class="section-title font-script text-2xl md:text-3xl mb-4 leading-snug">Our Commitment to Quality</h2>
+      <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed mb-6">
+        Every batch is freshly made in small quantities to ensure the creamiest texture
+        and richest flavor. We believe that simple, high-quality ingredients make all the difference.
+      </p>
+      <ul class="space-y-3 text-sm text-gray-700 dark:text-gray-300">
+        <li class="flex items-center gap-2"><span class="text-rose font-bold">✓</span> No artificial colors or preservatives</li>
+        <li class="flex items-center gap-2"><span class="text-rose font-bold">✓</span> Locally sourced dairy &amp; real ingredients</li>
+        <li class="flex items-center gap-2"><span class="text-rose font-bold">✓</span> Handcrafted in small batches daily</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- DEALS -->
+  <section class="px-6 md:px-10 pb-16 text-center">
+    <p class="section-eyebrow">Special Offer</p>
+    <h2 class="section-title text-4xl md:text-5xl mb-4">Sweet Deals Just for You</h2>
+    <p class="text-gray-500 dark:text-gray-400 text-[15px] max-w-md mx-auto mb-10 leading-relaxed">
+      Enjoy exclusive offers and seasonal promotions—because every scoop is better when it comes with a sweet surprise.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
+      <div class="bg-mink dark:bg-buy rounded-2xl overflow-hidden">
+        <img src="img/deal1.jpg" alt="Ice cream with chocolate sauce" class="w-full h-56 object-cover"/>
+        <div class="p-6">
+          <h3 class="section-title text-2xl mb-2">Buy 2, Get 1 Free</h3>
+          <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed mb-4">On all cups &amp; cones every Sunday. Treat yourself — or share the joy!</p>
+          <span class="badge bg-chocolate dark:bg-darkcard3 text-cream dark:text-white">Every Sunday</span>
+        </div>
+      </div>
+
+      <div class="bg-blush dark:bg-water rounded-2xl overflow-hidden">
+        <img src="img/deal2.jpg" alt="Watermelon mint ice cream" class="w-full h-56 object-cover"/>
+        <div class="p-6">
+          <h3 class="section-title text-2xl mb-2">Seasonal Flavors</h3>
+          <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed mb-4">Try our exclusive limited-time flavors, crafted with the best ingredients of the season.</p>
+          <span class="badge bg-blush dark:bg-darkpink text-roseDark dark:text-white">Limited Time</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    // Dark mode toggle
+    const toggle = document.getElementById('darkToggle');
+    const html = document.documentElement;
+    if (localStorage.getItem('theme') === 'dark') html.classList.add('dark');
+    toggle.addEventListener('click', () => {
+      html.classList.toggle('dark');
+      localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+    });
+
+    // Mobile menu
+    document.getElementById('menuBtn').addEventListener('click', () => {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
