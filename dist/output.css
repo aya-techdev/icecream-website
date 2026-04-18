@@ -862,6 +862,11 @@ body {
   background-color: rgb(249 245 240 / var(--tw-bg-opacity, 1));
 }
 
+.bg-darkpink {
+  --tw-bg-opacity: 1;
+  background-color: rgb(142 79 96 / var(--tw-bg-opacity, 1));
+}
+
 .bg-mink {
   --tw-bg-opacity: 1;
   background-color: rgb(240 236 224 / var(--tw-bg-opacity, 1));
@@ -879,6 +884,11 @@ body {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
 .object-cover {
@@ -1109,15 +1119,15 @@ body {
 }
 
 .dark\:bg-darkcard1:is(.dark *) {
-  background-color: #886565a0;
+  background-color: #644a3b9c;
 }
 
 .dark\:bg-darkcard2:is(.dark *) {
-  background-color: #0000008f;
+  background-color: #44182aae;
 }
 
 .dark\:bg-darkcard3:is(.dark *) {
-  background-color: #34000e6f;
+  background-color: #4505167a;
 }
 
 .dark\:bg-darkpink:is(.dark *) {
@@ -1140,7 +1150,7 @@ body {
 }
 
 .dark\:bg-vanilla:is(.dark *) {
-  background-color: #361a016a;
+  background-color: #3d24149c;
 }
 
 .dark\:bg-water:is(.dark *) {

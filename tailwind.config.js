@@ -16,7 +16,7 @@ module.exports = {
         darkcard3: '#4505167a',
         darkcard2: '#44182aae',
         darkcard1: '#644a3b9c',
-        heart :     '#2d0b00',
+        heart :    '#2d0b00',
         vanilla:  '#3d24149c',
         buy : '#1d020b',
         water : '#410f23ae',

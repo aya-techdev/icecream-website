@@ -881,6 +881,25 @@ body {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-darkpink {
+  --tw-bg-opacity: 1;
+  background-color: rgb(142 79 96 / var(--tw-bg-opacity, 1));
+}
+
+.bg-water {
+  background-color: #410f23ae;
+}
+
+.bg-rose {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 116 138 / var(--tw-bg-opacity, 1));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1058,6 +1077,11 @@ body {
 .text-roseDark {
   --tw-text-opacity: 1;
   color: rgb(176 85 112 / var(--tw-text-opacity, 1));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .transition-colors {
