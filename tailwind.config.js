@@ -13,13 +13,14 @@ module.exports = {
         mink:     '#f0ece0',
         dark:     '#04020e',
         darkpink: '#8e4f60',
-        darkcard3: '#34000e6f',
-        darkcard2: '#0000008f',
-        darkcard1: '#2d0a0aa0',
+        darkcard3: '#4505167a',
+        darkcard2: '#44182aae',
+        darkcard1: '#644a3b9c',
         heart :     '#2d0b00',
-        vanilla:  '#361a016a',
+        vanilla:  '#3d24149c',
         buy : '#1d020b',
         water : '#410f23ae',
+        
         chocolate : '#3b1003c9',
       },
       fontFamily: {

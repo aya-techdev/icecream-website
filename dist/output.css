@@ -1109,15 +1109,15 @@ body {
 }
 
 .dark\:bg-darkcard1:is(.dark *) {
-  background-color: #644a3b9c;
+  background-color: #886565a0;
 }
 
 .dark\:bg-darkcard2:is(.dark *) {
-  background-color: #44182aae;
+  background-color: #0000008f;
 }
 
 .dark\:bg-darkcard3:is(.dark *) {
-  background-color: #4505167a;
+  background-color: #34000e6f;
 }
 
 .dark\:bg-darkpink:is(.dark *) {
@@ -1140,7 +1140,7 @@ body {
 }
 
 .dark\:bg-vanilla:is(.dark *) {
-  background-color: #3d24149c;
+  background-color: #361a016a;
 }
 
 .dark\:bg-water:is(.dark *) {
